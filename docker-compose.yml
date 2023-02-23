@@ -1,0 +1,8 @@
+version: '1.0'
+
+services:
+  pepperdocker:
+    image: pepperdocker
+    build:
+      context: .
+      dockerfile: ./Dockerfile
