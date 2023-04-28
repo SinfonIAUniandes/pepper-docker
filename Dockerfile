@@ -1,4 +1,4 @@
-#Get ubuntu OS from image and install basic dependencies
+#Get gentoo OS from image and install basic dependencies
 FROM gentoo
 FROM gentoo/portage
 FROM ros:noetic 
