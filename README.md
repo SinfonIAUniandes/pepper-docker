@@ -1,2 +1,2 @@
 # pepper-docker
-Ubuntu based Docker image for pepper robots
+Arch based Docker image for pepper robots
