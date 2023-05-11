@@ -1,5 +1,6 @@
 #Get Arch Linux OS from image and install basic dependencies
 FROM archlinux
+FROM ros/noetic
 
 #Install git, nano, gcc and python
 RUN pacman-db-upgrade
