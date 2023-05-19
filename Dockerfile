@@ -3,6 +3,7 @@ FROM ubuntu:20.04
 FROM ros
 
 #Install git, nano, gcc and python
+RUN apt-get git neofetch python3 python3-pip gcc rust nano -y
 
 #Install paru, we will use this to build ROS Noetic
 RUN useradd -m pepper
