@@ -8,7 +8,7 @@ sudo docker build -t pepperdocker:latest .
 
 and to run once built, please run:
 ````
-sudo docker run -t pepperdocker:latest .
+sudo docker exec -it pepperdocker:latest bash
 ````
 
 this project is currently in beta, be patient!
