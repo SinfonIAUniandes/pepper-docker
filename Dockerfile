@@ -22,4 +22,4 @@ RUN git clone https://github.com/awesomebytes/pepper_virtual.git
 
 RUN neofetch
 #Label the image
-LABEL Name=pepperdocker Version=0.0.2
+LABEL Name=sinfonia-novadocker Version=0.0.2

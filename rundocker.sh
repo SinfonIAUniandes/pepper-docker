@@ -1,2 +1,2 @@
-sudo docker build -t pepperdocker:latest .
-sudo docker exec -it pepperdocker:latest bash
+sudo docker build -t sinfonia-novadocker:latest .
+sudo docker exec -it sinfonia-novadocker:latest bash
