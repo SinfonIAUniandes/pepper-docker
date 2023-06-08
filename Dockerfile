@@ -4,7 +4,6 @@ FROM ros:noetic
 
 #Install git, nano, gcc and python, these are mostly here for the fact they're used in development 
 RUN apt update
-RUN apt upgrade -y
 RUN apt-get install git neofetch python3 python2 python3-pip gcc curl -y
 
 #make the user
